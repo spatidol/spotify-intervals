@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(intervals.svg);
+}
+
+body.index {
+  width: 100%;
+  height: 100%;
+  background-image: url(intervals2.svg)
+}
+
+a#login {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  margin-top: 110px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.container {
+  text-align: center;
+  padding: 100px 10px;
+}
+
+
+#main {
+  margin: 2%;
+  padding: 10%;
+  height: 600px;
+}
+
+#search-form {
+  background-color: rgba(255, 255, 255, .9);
+  width: 90%;
+  height: 300px;
+}
+
+.btn.btn-info.submit {
+  width: 19%;
+  display: block;
+  letter-spacing: .9px;
+  margin: 0 auto;
+  margin-top: 40px;
+  float: right;
+  margin-right: 30px;
+}
+
+.form-group {
+  float: right;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  padding-right: 14px;
+  clear: both;
+}
+
+input {
+  clear: both;
+}
